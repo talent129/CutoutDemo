@@ -13,7 +13,6 @@
 		0451D3941ED6858700D44E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0451D3921ED6858700D44E24 /* Main.storyboard */; };
 		0451D3961ED6858700D44E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0451D3951ED6858700D44E24 /* Assets.xcassets */; };
 		0451D3991ED6858700D44E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0451D3971ED6858700D44E24 /* LaunchScreen.storyboard */; };
-		0451D3A21ED685DB00D44E24 /* CutoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0451D3A11ED685DB00D44E24 /* CutoutView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +26,7 @@
 		0451D3951ED6858700D44E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0451D3981ED6858700D44E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0451D39A1ED6858700D44E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0451D3A01ED685DB00D44E24 /* CutoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutoutView.h; sourceTree = "<group>"; };
-		0451D3A11ED685DB00D44E24 /* CutoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutoutView.m; sourceTree = "<group>"; };
+		3406AEB521F74B020066ADB7 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +63,7 @@
 				0451D38D1ED6858700D44E24 /* AppDelegate.m */,
 				0451D38F1ED6858700D44E24 /* ViewController.h */,
 				0451D3901ED6858700D44E24 /* ViewController.m */,
-				0451D3A01ED685DB00D44E24 /* CutoutView.h */,
-				0451D3A11ED685DB00D44E24 /* CutoutView.m */,
+				3406AEB521F74B020066ADB7 /* Config.h */,
 				0451D3921ED6858700D44E24 /* Main.storyboard */,
 				0451D3951ED6858700D44E24 /* Assets.xcassets */,
 				0451D3971ED6858700D44E24 /* LaunchScreen.storyboard */,
@@ -158,7 +155,6 @@
 			files = (
 				0451D3911ED6858700D44E24 /* ViewController.m in Sources */,
 				0451D38E1ED6858700D44E24 /* AppDelegate.m in Sources */,
-				0451D3A21ED685DB00D44E24 /* CutoutView.m in Sources */,
 				0451D38B1ED6858700D44E24 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +312,7 @@
 				0451D39F1ED6858700D44E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
